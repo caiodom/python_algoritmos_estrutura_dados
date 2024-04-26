@@ -12,7 +12,7 @@ class VetorNaoOrdenado:
       print('O vetor está vazio')
     else:
       for i in range(self.ultima_posicao + 1):
-        print(i, ' - ', self.valores[i])
+        print("posição: ",i, ' - ',"valor: ", self.valores[i])
 
   # O(1) - O(2)
   def insere(self, valor):
